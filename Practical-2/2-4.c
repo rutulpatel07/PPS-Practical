@@ -1,7 +1,8 @@
 #include <stdio.h>
 
+#define T 32    
+
 int main(){
-    int T = 32;
     const float t = 1.8;
 
     float celsius, fahrenheit;
