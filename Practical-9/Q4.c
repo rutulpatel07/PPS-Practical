@@ -10,9 +10,9 @@ int main() {
     char c = 'A';
 
     // Print the addresses of the variables
-    printf("Address of variable a: %p\n", (void*)&a);
-    printf("Address of variable b: %p\n", (void*)&b);
-    printf("Address of variable c: %p\n", (void*)&c);
+    printf("Address of variable a: %p\n", &a);
+    printf("Address of variable b: %p\n", &b);
+    printf("Address of variable c: %p\n", &c);
 
     return 0;
 }
